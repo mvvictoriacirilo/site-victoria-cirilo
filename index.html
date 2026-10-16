@@ -544,7 +544,14 @@ Laudo/resultado: ${g('sorologia')==='Sim'?g('laudo'):'—'}
 📝 *OBSERVAÇÕES*
 ${g('obs')}
 
-Gostaria de saber quais são os próximos passos para a viagem.`;window.open('https://wa.me/5511933166836?text='+encodeURIComponent(msg),'_blank','noopener')});updateConditional();render()})();
+Gostaria de saber quais são os próximos passos para a viagem.`;
+if (typeof gtag === 'function') {
+  gtag('event', 'conversion', {
+    'send_to': 'AW-18513500073/kkAYCJvToJ4dEKmv9vtE'
+  });
+}
+window.open('https://wa.me/5511933166836?text='+encodeURIComponent(msg),'_blank','noopener')
+  ('https://wa.me/5511933166836?text='+encodeURIComponent(msg),'_blank','noopener')});updateConditional();render()})();
 </script>
 <a class="floating-wa" href="https://wa.me/5511933166836?text=Olá%2C%20Victória!%20Vim%20pelo%20site%20e%20gostaria%20de%20informações.">WhatsApp ♡</a><script id="map-recovery-js">(function(){
   const live=document.getElementById('map'), fallback=document.getElementById('mapFallback');
